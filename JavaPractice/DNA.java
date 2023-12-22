@@ -1,3 +1,5 @@
+//Practicing String Traversal
+
 public class DNA{
 
 // checks if a DNA string has protein
