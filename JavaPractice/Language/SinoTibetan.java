@@ -1,3 +1,5 @@
+//This class specifies details about the SinoTibetan language
+
 public class SinoTibetan extends Language{
 
   public SinoTibetan(String name, int numSpeakers){
