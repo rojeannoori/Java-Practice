@@ -6,6 +6,7 @@
 
 -it starts with AGT in sequence.
 -it ends with TGA
+-DNA strings can be of any length
 
 */
 
@@ -29,9 +30,9 @@ public class DNA{
 
 public static void main (String [] args){
 
-String dna1 = "ATGCGATACGCTTGA";
-String dna2 = "ATGCGATACGTGA";
-String dna3 = "ATTAATATGTACTGA";
+String dna1 = "ATGCGATACGCTTGA"; //has protein
+String dna2 = "ATGCGATACGTGA"; //doesnt have a protein
+String dna3 = "ATTAATATGTACTGA"; //has a protein
 String dna4 = "edaub";
 DNA dna = new DNA();
 
