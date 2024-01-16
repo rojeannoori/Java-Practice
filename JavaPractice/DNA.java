@@ -1,4 +1,6 @@
 //Practicing String Traversal
+// this code identifies if a certain DNA has protein in the sequence
+// each DNA is a String
 
 public class DNA{
 
