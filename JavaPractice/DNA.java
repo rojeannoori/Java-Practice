@@ -1,6 +1,12 @@
-//Practicing String Traversal
+// Practicing String Traversal
 // this code identifies if a certain DNA has protein in the sequence
 // each DNA is a String
+// a DNA contains a protein if:
+/*
+
+it starts with AGT in sequence.
+
+*/
 
 public class DNA{
 
