@@ -4,7 +4,8 @@
 // a DNA contains a protein if:
 /*
 
-it starts with AGT in sequence.
+-it starts with AGT in sequence.
+-it ends with TGA
 
 */
 
@@ -19,7 +20,7 @@ public class DNA{
     //getting the end position TGA
     int endIndex =  dna.indexOf("TGA");
 
-    //if the Start and Index are obove -1 they are found in the string. 
+    //if the Start and Index are above -1 they are found in the string. 
     if ((startIndex > -1 && endIndex > -1) && (endIndex+2-startIndex+1)%3==0){
       return "Contains a Protein";
     }
