@@ -1,3 +1,6 @@
+//this is very simple program that identifies if a number is prime or not
+
+
 
 import java.util.ArrayList;
 
