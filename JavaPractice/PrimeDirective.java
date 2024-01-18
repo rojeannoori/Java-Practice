@@ -9,6 +9,7 @@ class PrimeDirective {
 //check to see if a number is prime
   public boolean isPrime (int num){
 
+//checking for a special case of 2. because 2 is divisible by 2 but is prime
     if (num == 2){
       return true;
     }
