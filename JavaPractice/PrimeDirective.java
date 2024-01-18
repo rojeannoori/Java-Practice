@@ -13,6 +13,8 @@ class PrimeDirective {
     if (num == 2){
       return true;
     }
+
+//we iterate through every number from 1 to the number-1 to see if the number of choice is divisible by.
     for (int i = 2; i < num ; i++){
       if (num%i==0){
         return false;
